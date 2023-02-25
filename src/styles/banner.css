@@ -42,10 +42,10 @@
 .filter {
   display: block;
   position: absolute;
-  top: 0;
-  height: 100vh;
+  bottom: 0;
+  height: 10vh;
   width: 100%;
-  background: linear-gradient(180deg, transparent 85%, black);
+  background: linear-gradient(180deg, transparent, black);
 }
 .logo {
   width: 16rem;

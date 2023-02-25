@@ -8,8 +8,8 @@ export default function Footer() {
   }
   return (
     <>
+      <ModalPrivacy isOpen={isOpen} toggleModal={toggleModal} />
       <footer>
-        <ModalPrivacy isOpen={isOpen} toggleModal={toggleModal} />
         <p>Copyright © Bizu da Aprovação 2023 </p>
         <button onClick={toggleModal} className="privacy_button">
           Política de Privacidade - Termos de uso
