@@ -1,0 +1,18 @@
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+footer p {
+  color: white;
+}
+
+.privacy_button {
+  background: none;
+  color: white;
+  border: none;
+}
