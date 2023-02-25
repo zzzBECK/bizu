@@ -4,6 +4,7 @@ import InscriptionButton from "../inscriptionButton";
 export default function Banner() {
   return (
     <section className="banner">
+      <div className="filter"></div>
       <Image src={logo} alt="logo" className="logo" />
       <div className="banner_content">
         <h3>Evento online e gratuito</h3>

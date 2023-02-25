@@ -10,6 +10,8 @@
 @media (max-width: 475px) {
   .main {
     gap: 2rem;
-    background-image: url("../assets/foto_patrulheiro_mobile.png");
+    background-image: url("https://patrulheirojota.com.br/wp-content/uploads/2022/09/2s-3.png");
+    background-repeat: no-repeat;
+    background-size: initial;
   }
 }

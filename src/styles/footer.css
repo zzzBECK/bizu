@@ -5,18 +5,26 @@ footer {
   justify-content: center;
   flex-direction: column;
   padding-bottom: 2rem;
+  text-align: center;
 }
 
 footer p {
   color: white;
+  text-align: center;
 }
 
 .privacy_button {
   background: none;
   color: white;
   border: none;
+  text-align: center;
 }
 
 .privacy_button:hover {
   cursor: pointer;
+}
+@media (max-width: 475px) {
+  footer {
+    padding-top: 30vh;
+  }
 }

@@ -39,13 +39,26 @@
 .banner h2 b {
   color: #ff0c09;
 }
-
+.filter {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, transparent 85%, black);
+}
 .logo {
   width: 16rem;
   height: auto;
 }
 
 @media (max-width: 475px) {
+  .banner {
+    background: none;
+  }
+  .filter {
+    display: none;
+  }
   .banner h1 {
     width: 90%;
     margin-bottom: 2rem;
