@@ -1,3 +1,37 @@
 .infos {
+  display: flex;
   height: 80vh;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infos h1 {
+  text-align: center;
+  padding-bottom: 1em;
+
+}
+
+.infos h2 {
+  font-size: calc(0.7rem + 0.5vw);
+  padding-bottom: 1em;
+
+}
+
+.infos b {
+  color: #ff0c09;
+}
+
+ul li img{
+  height: 1.3em;
+  width: auto;
+}
+
+ul li {
+  height: 1.3em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding-bottom: 0.8em;
 }

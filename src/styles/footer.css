@@ -16,3 +16,7 @@ footer p {
   color: white;
   border: none;
 }
+
+.privacy_button:hover {
+  cursor: pointer;
+}

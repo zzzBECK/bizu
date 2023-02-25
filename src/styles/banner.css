@@ -4,6 +4,10 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
+  background-image: url("../assets/foto_patrulheiro.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
 }
 .banner_content {
   margin-top: 1rem;
