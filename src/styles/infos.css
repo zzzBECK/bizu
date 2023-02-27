@@ -1,23 +1,24 @@
 .infos {
   display: flex;
   height: 100vh;
-  color: white;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.infos h1 {
+.infos > h1 {
   text-align: center;
   padding-bottom: 1em;
+  color: white;
 }
 
-.infos h2 {
+.infos > h2 {
   font-size: calc(0.7rem + 0.5vw);
   padding-bottom: 1em;
+  color: white;
 }
 
-.infos b {
+.infos > h1 > b {
   color: #ff0c09;
 }
 
@@ -32,4 +33,6 @@ ul li {
   align-items: center;
   gap: 0.5em;
   padding-bottom: 0.8em;
+
+  color: white;
 }

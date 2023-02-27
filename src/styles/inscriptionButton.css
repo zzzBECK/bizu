@@ -7,6 +7,7 @@
   background-color: #003ec7;
   border: none;
   font-size: 1.2em;
+  width: fit-content;
 }
 .inscription_button:hover {
   background-color: #003fc7c2;
