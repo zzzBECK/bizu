@@ -1,7 +1,7 @@
 import Image from "next/image";
 import meet from "@/assets/meet.svg";
 import check from "@/assets/check-solid.svg";
-import Button from "../inscriptionButton";
+import InscriptionButton from "../inscriptionButton";
 
 
 export default function Infos() {
@@ -23,7 +23,7 @@ export default function Infos() {
         <li><Image src={check} /> Como sair da procrastinação</li>
       </ul>
 
-      <Button label="SIM, QUERO ME INSCREVER!"/>
+      <InscriptionButton label="SIM, QUERO ME INSCREVER!"/>
 
     </section>
   );

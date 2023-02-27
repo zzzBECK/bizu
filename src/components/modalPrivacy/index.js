@@ -1,5 +1,7 @@
 import exit from "@/assets/xmark.svg";
 import Image from "next/image";
+
+
 export default function ModalPrivacy({ isOpen, toggleModal }) {
   if (!isOpen) return;
   return (

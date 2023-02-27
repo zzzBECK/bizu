@@ -5,6 +5,7 @@ import "@/styles/footer.css";
 import "@/styles/infos.css";
 import "@/styles/inscriptionButton.css";
 import "@/styles/modalPrivacy.css";
+import "@/styles/form.css";
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
