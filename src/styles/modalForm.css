@@ -59,9 +59,11 @@
 }
 
 .form_content-group label {
+  color: black;
   font-size: calc(1em+0.3vw);
 }
 .form_content-group input {
+  color: black;
   padding: 1em;
   border-radius: 0.2rem;
   border: 1px solid rgb(100, 100, 100);
