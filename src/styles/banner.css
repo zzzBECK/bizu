@@ -59,7 +59,7 @@
   .filter {
     display: none;
   }
-  .banner h1 {
+  .banner_content > h1 {
     width: 90%;
     margin-bottom: 2rem;
   }
