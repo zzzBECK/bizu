@@ -18,18 +18,18 @@ export default function ModalForm({ isOpen, toggleForm }) {
           </button>
         </header>
 
-        <form className="form_content">
+        <form className="form_content" action="https://app.us21.list-manage.com/subscribe/post?u=79858f1fc33011634a9c3d4b3&amp;id=f6925e6ae9&amp;f_id=0039ffe1f0" method="post">
           <section className="form_content-group">
             <label htmlFor="name">
               <b>Nome*</b>
             </label>
-            <input id="name" type="text" name="name" placeholder="Nome" required />
+            <input id="name" type="text" name="NAME" placeholder="Nome" required />
           </section>
           <section className="form_content-group">
             <label htmlFor="email">
               <b>Seu melhor E-mail*</b>
             </label>
-            <input id="email" type="email" name="email" placeholder="exemplo@email.com" required />
+            <input id="email" type="email" name="EMAIL" placeholder="exemplo@email.com" required />
           </section>
           <section className="form_content-group">
             <label htmlFor="phone">
@@ -38,7 +38,7 @@ export default function ModalForm({ isOpen, toggleForm }) {
             <input
               id="phone"
               type="tel"
-              name="phone"
+              name="PHONE"
               placeholder="7998121234"
               pattern="[0-9()#&+*-=.]+"
               title="Only numbers and phone characters (#, -, *, etc) are accepted."

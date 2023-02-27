@@ -1,0 +1,48 @@
+.confirmacao_background {
+    background-image: url(../assets/confirmacao_desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.confirmacao_content {
+    height: 76.8vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    align-items: center;
+    
+}
+
+.confirmacao_content h2 {
+    width: calc(40% + 10vw);
+    margin: 1rem;
+    text-align: center;
+    font-size: calc(1em + 0.2em);
+
+}
+
+.confirmacao_content h1 {
+    color: #003fc7c2;
+    font-size: calc(2rem + 0.5vw);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.confirmacao_content button {
+    margin: 2em 0;
+}
+
+
+@media (max-width: 500px) {
+
+    .confirmacao_content h2 {
+        width: 96vw;
+    }
+
+    .confirmacao_content button {
+      align-self: center;
+      height: 2rem;
+      font-size: calc(0.7rem + 0.2vw);
+    }
+  }

@@ -6,6 +6,8 @@ import "@/styles/infos.css";
 import "@/styles/inscriptionButton.css";
 import "@/styles/modalPrivacy.css";
 import "@/styles/modalForm.css";
+import "@/styles/confirmacao.css";
+
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;
