@@ -17,17 +17,18 @@ export default function ModalForm({ isOpen, toggleForm }) {
             <Image src={exit} alt="exit button" height={20} />
           </button>
         </header>
+
         <form className="form_content">
           <section className="form_content-group">
-            <label htmlFor="name">Nome*</label>
+            <label htmlFor="name"><b>Nome*</b></label>
             <input id="name" type="text" name="name" placeholder="Nome" required />
           </section>
           <section className="form_content-group">
-            <label htmlFor="email">Seu melhor E-mail*</label>
+            <label htmlFor="email"><b>Seu melhor E-mail*</b></label>
             <input id="email" type="email" name="email" placeholder="exemplo@email.com" required />
           </section>
           <section className="form_content-group">
-            <label htmlFor="phone">Seu Whatsapp*</label>
+            <label htmlFor="phone"><b>Seu Whatsapp*</b></label>
             <input
               id="phone"
               type="tel"
@@ -38,8 +39,10 @@ export default function ModalForm({ isOpen, toggleForm }) {
               required
             />
           </section>
-          <button className="inscription_button">CONFIRMAR CADASTRO</button>
+          <button type="submit" className="inscription_button">CONFIRMAR CADASTRO</button>
         </form>
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/5bf5c632-3bad-4542-8f90-bdcea6287968-loader.js" ></script>
+
       </article>
     </main>
   );
