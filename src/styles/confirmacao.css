@@ -55,11 +55,7 @@
     .confirmacao_content button {
       align-self: center;
       height: 2rem;
-<<<<<<< HEAD
       font-size: calc(0.7rem + 1.4vw);
-=======
-      font-size: calc(0.7rem + 1.5vw);
->>>>>>> refs/remotes/origin/main
     }
 }
 
