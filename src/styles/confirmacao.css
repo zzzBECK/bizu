@@ -43,6 +43,6 @@
     .confirmacao_content button {
       align-self: center;
       height: 2rem;
-      font-size: calc(0.7rem + 0.2vw);
+      font-size: calc(0.7rem + 1.4vw);
     }
   }

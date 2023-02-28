@@ -20,8 +20,8 @@ export default function ModalPrivacy({ isOpen, toggleModal }) {
             Patrulheiro Jota, e outros sites que possuímos e operamos.
           </p>
           <p>
-            Solicitamos informações pessoais apenas quando realemente prcisamos delas para lhe
-            fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e
+            Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe
+            fornecer um serviço. Fazêmo-lo por meios justos e legais, com o seu conhecimento e
             consentimento. Também informamos por que estamos coletando e como será usado.
           </p>
           <p>
