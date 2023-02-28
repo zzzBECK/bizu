@@ -37,10 +37,14 @@
 .confirmacao_background footer{
     position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
 }
 
+@media (max-width: 800px) {
+
+    .confirmacao_content h2 {
+        width: 96vw;
+    }
+}
 
 @media (max-width: 500px) {
 
@@ -51,6 +55,22 @@
     .confirmacao_content button {
       align-self: center;
       height: 2rem;
-      font-size: calc(0.7rem + 0.2vw);
+      font-size: calc(0.7rem + 1.5vw);
     }
-  }
+}
+
+@media (max-height: 700px) {
+
+    .confirmacao_content {
+        padding-top: 4em;
+    }
+    
+}
+
+@media (max-height: 570px) {
+
+    .confirmacao_content {
+        padding-top: 0.8em;
+    }
+    
+}
