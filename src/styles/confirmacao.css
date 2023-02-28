@@ -1,12 +1,12 @@
 .confirmacao_background {
+    height: 100vh;
+    width: auto;
     background-image: url(../assets/confirmacao_desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .confirmacao_content {
-    height: 76.8vh;
-    width: auto;
     display: flex;
     flex-direction: column;
     padding-top: 10em;
@@ -19,6 +19,7 @@
     margin: 1rem;
     text-align: center;
     font-size: calc(1em + 0.2em);
+    color: white;
 
 }
 
@@ -31,6 +32,13 @@
 
 .confirmacao_content button {
     margin: 2em 0;
+}
+
+.confirmacao_background footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
